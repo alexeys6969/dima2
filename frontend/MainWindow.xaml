@@ -1,0 +1,21 @@
+﻿<Window x:Class="frontend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:frontend"
+        mc:Ignorable="d"
+        Background="AntiqueWhite"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Введите минимальное значение" HorizontalAlignment="Right" Margin="0,0,597,398" VerticalAlignment="Bottom" RenderTransformOrigin="0.433,2.234" Width="193"/>
+        <Label Content="Введите максимальное значение" HorizontalAlignment="Left" Margin="597,0,0,398" VerticalAlignment="Bottom" RenderTransformOrigin="0.433,2.234" Width="193"/>
+        <Button Content="РАНДОМ" Background="White" Click="random" HorizontalAlignment="Center" Margin="0,0,0,344" VerticalAlignment="Bottom" Height="80" Width="164"/>
+        <TextBox HorizontalAlignment="Right" Margin="0,0,597,344" x:Name="min" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="193" Height="49"/>
+        <TextBox HorizontalAlignment="Right" Margin="0,0,10,344" x:Name="max" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="193" Height="49"/>
+        <Label Content="Ваше число:" FontSize="30" x:Name="result" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.433,2.234" Width="292" Height="103"/>
+
+
+
+    </Grid>
+</Window>
